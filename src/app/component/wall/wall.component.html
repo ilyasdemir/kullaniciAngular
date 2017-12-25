@@ -1,0 +1,20 @@
+<table class="table">
+  
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Ad</th>
+      <th>Soyad</th>
+      <th>Kullanıcı Adı</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let kul of kullanicilar ; let i=index">
+      <th>{{i+1}}</th>
+      <td>{{kul.isim}}</td>
+      <td>{{kul.soyad}}</td>
+      <td>{{kul.kAdi}}</td>
+    </tr>
+    
+  </tbody>
+</table>
